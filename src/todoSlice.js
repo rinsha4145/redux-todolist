@@ -1,5 +1,6 @@
 
 import { createSlice } from '@reduxjs/toolkit';
+import './App.css'
 
 const initialState = {
   todos: [],
