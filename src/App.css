@@ -41,6 +41,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  margin-right: 5px;
 }
 
 button:hover {
@@ -65,16 +66,59 @@ li {
 
 li span {
   cursor: pointer;
+  flex: 1;
+  font-size: 16px;
+  margin-right: 10px;
 }
 
 li span:hover {
   color: #007bff;
+  text-decoration: underline;
 }
 
 li button {
   background-color: #dc3545;
+  font-size: 14px;
+  padding: 5px 10px;
 }
 
-li button:hover {
+li button.edit {
+  background-color: #ffc107;
+}
+
+li button.edit:hover {
+  background-color: #e0a800;
+}
+
+li button.delete {
+  background-color: #dc3545;
+}
+
+li button.delete:hover {
   background-color: #c82333;
+}
+
+li input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button.save {
+  background-color: #28a745;
+}
+
+button.save:hover {
+  background-color: #218838;
+}
+
+button.cancel {
+  background-color: #6c757d;
+}
+
+button.cancel:hover {
+  background-color: #5a6268;
 }

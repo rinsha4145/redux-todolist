@@ -1,7 +1,8 @@
 // src/ToDoApp.js
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addTodo, toggleTodo, deleteTodo, editTodo } from './redux/todosSlice';
+import { addTodo, toggleTodo, deleteTodo, editTodo } from './todoSlice';
+import './App.css'
 
 const ToDoApp = () => {
   const [inputValue, setInputValue] = useState('');
